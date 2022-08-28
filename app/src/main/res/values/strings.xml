@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Alethiometer</string>
+    <string name="red_hand">Alethiometer Red Hand</string>
+    <string name="blue_hand">Alethiometer Blue Hand</string>
 </resources>

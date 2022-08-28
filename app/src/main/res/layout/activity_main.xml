@@ -6,13 +6,76 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/ivAlethiometer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:contentDescription="@string/app_name"
+        app:srcCompat="@drawable/alethiometer"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="135dp" />
+
+    <ImageView
+        android:id="@+id/ivRedHand1"
+        android:layout_width="30dp"
+        android:layout_height="168dp"
+        android:contentDescription="@string/red_hand"
+        app:srcCompat="@drawable/red_hand"
+        app:layout_constraintTop_toTopOf="@id/ivAlethiometer"
+        app:layout_constraintBottom_toBottomOf="@id/ivAlethiometer"
+        app:layout_constraintVertical_bias=".24"
+        app:layout_constraintRight_toRightOf="@id/ivAlethiometer"
+        app:layout_constraintLeft_toLeftOf="@id/ivAlethiometer"
+        app:layout_constraintHorizontal_bias="0.5"
+        />
+
+    <ImageView
+        android:id="@+id/ivRedHand2"
+        android:layout_width="30dp"
+        android:layout_height="168dp"
+        android:contentDescription="@string/red_hand"
+        app:srcCompat="@drawable/red_hand"
+        app:layout_constraintTop_toTopOf="@id/ivAlethiometer"
+        app:layout_constraintBottom_toBottomOf="@id/ivAlethiometer"
+        app:layout_constraintVertical_bias=".24"
+        app:layout_constraintRight_toRightOf="@id/ivAlethiometer"
+        app:layout_constraintLeft_toLeftOf="@id/ivAlethiometer"
+        app:layout_constraintHorizontal_bias="0.5"
+        />
+
+    <ImageView
+        android:id="@+id/ivRedHand3"
+        android:layout_width="30dp"
+        android:layout_height="168dp"
+        android:contentDescription="@string/red_hand"
+        app:srcCompat="@drawable/red_hand"
+        app:layout_constraintTop_toTopOf="@id/ivAlethiometer"
+        app:layout_constraintBottom_toBottomOf="@id/ivAlethiometer"
+        app:layout_constraintVertical_bias=".24"
+        app:layout_constraintRight_toRightOf="@id/ivAlethiometer"
+        app:layout_constraintLeft_toLeftOf="@id/ivAlethiometer"
+        app:layout_constraintHorizontal_bias="0.5"
+        />
+
+    <ImageView
+        android:id="@+id/ivBlueHand"
+        android:layout_width="30dp"
+        android:layout_height="168dp"
+        android:contentDescription="@string/blue_hand"
+        app:srcCompat="@drawable/blue_hand"
+        app:layout_constraintTop_toTopOf="@id/ivAlethiometer"
+        app:layout_constraintBottom_toBottomOf="@id/ivAlethiometer"
+        app:layout_constraintVertical_bias=".24"
+        app:layout_constraintRight_toRightOf="@id/ivAlethiometer"
+        app:layout_constraintLeft_toLeftOf="@id/ivAlethiometer"
+        app:layout_constraintHorizontal_bias="0.5"
+        />
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
